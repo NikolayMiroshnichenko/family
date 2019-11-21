@@ -9,58 +9,64 @@
 <body>
 	<header class="header">
 		<div class="header-container container">
-			<a href="#" class="logo">LOGO</a>
-			<nav class="navigation">
-				<a href="#" class="navigation-item">MENU-1</a>
-				<a href="#" class="navigation-item">MENU-2</a>
-				<a href="#" class="navigation-item">MENU-3</a>
-				<a href="#" class="navigation-item">MENU-4</a>
-				<a href="#" class="navigation-item">MENU-5</a>
-			</nav>
+			<a href="#" class="logo"></a>
+			<div class="header-content">
+				<div class="header-addres">
+					<p class="header-addres__items">м.Чернігів</p>
+					<p class="header-addres__items">вул. 1-го травня, 172</p>
+				</div>
+				<div class="header-mobill">
+					<p class="header-mobill__items"> +38 (050) 325 20 67</p>
+					<p class="header-mobill__items"> +38 (050) 88 98 163</p>
+					<p class="header-mobill__items"> +38 (046)2 65 22 99</p>
+				</div>
+				<div class="menu js-open-menu">
+					<span class="menu-img"></span>
+				</div>
+			</div>
 		</div>
 	</header>
+	<div class="navigation-container js-menu">
+		<button class="close-menu js-close-menu"></button>
+		<nav class="navigation">
+			<a href="#services" class="navigation-item">ПОСЛУГИ</a>
+			<a href="#" class="navigation-item">MENU-2</a>
+			<a href="#" class="navigation-item">MENU-3</a>
+			<a href="#" class="navigation-item">MENU-4</a>
+			<a href="#" class="navigation-item">MENU-5</a>
+		</nav>
+
+	</div>
 	<main class="main-container">
 		<div class="main container">
-			<h1 class="main-title">Здесь будет ваш Заголовок!</h1>
-			<p class="main-desckriptions">Здесь будет какое-то описание</p>
+			<h1 class="main-title">Плануете бути <span>здоровими</span> - будьте з нами!</h1>
+			<p class="main-desckriptions">Консультація, профілактика та лікування</p>
+			<a href="#services" class="main-btn">ПОСЛУГИ</a>
 		</div>
 	</main>
-	<section class="services container">
-		<h2 class="block-title">Услуги</h2>
+	<section class="services container js-services" id="services">
+		<h2 class="block-title">Послуги</h2>
 		<ul class="services-list">
 			<li class="services-list__items">
-				<img src="img/2.jpg" class="services-list__img">
-				<h3 class="services-list__title">Заголовок!</h3>
-				<p class="services-list__descriptions">Описание! аааа ааааа  ааааа аааа ааа аааааарр аааа аааа аааа  ааааа  аааа ааааа ввввв вввввв вввввв  ввввв ввв ввв ввв вв, Описание! аааа ааааа  ааааа аааа ааа аааааарр аааа аааа аааа  ааааа  аааа ааааа ввввв вввввв вввввв  ввввв ввв ввв ввв вв</p>
+				<img src="img/services/1.jpg" class="services-list__img">
+				<h3 class="services-list__title">Психологічні</h3>
+				<a href="#" class="services-list__btn" data-actions="1">Детальніше</a>
 			</li>
 			<li class="services-list__items">
-				<img src="img/1.jpg" class="services-list__img">
-				<h3 class="services-list__title">Заголовок!</h3>
-				<p class="services-list__descriptions">Описание! аааа ааааа  ааааа аааа ааа аааааарр аааа аааа аааа  ааааа  аааа ааааа ввввв вввввв вввввв  ввввв ввв ввв ввв вв, Описание! аааа ааааа  ааааа аааа ааа аааааарр аааа аааа аааа  ааааа  аааа ааааа ввввв вввввв вввввв  ввввв ввв ввв ввв вв</p>
-			</li>
-			<li class="services-list__items">
-				<img src="img/2.jpg" class="services-list__img">
-				<h3 class="services-list__title">Заголовок!</h3>
-				<p class="services-list__descriptions">Описание! аааа ааааа  ааааа аааа ааа аааааарр аааа аааа аааа  ааааа  аааа ааааа ввввв вввввв вввввв  ввввв ввв ввв ввв вв, Описание! аааа ааааа  ааааа аааа ааа аааааарр аааа аааа аааа  ааааа  аааа ааааа ввввв вввввв вввввв  ввввв ввв ввв ввв вв</p>
-			</li>
-			<li class="services-list__items">
-				<img src="img/1.jpg" class="services-list__img">
-				<h3 class="services-list__title">Заголовок!</h3>
-				<p class="services-list__descriptions">Описание! аааа ааааа  ааааа аааа ааа аааааарр аааа аааа аааа  ааааа  аааа ааааа ввввв вввввв вввввв  ввввв ввв ввв ввв вв, Описание! аааа ааааа  ааааа аааа ааа аааааарр аааа аааа аааа  ааааа  аааа ааааа ввввв вввввв вввввв  ввввв ввв ввв ввв вв</p>
+				<img src="img/services/2.jpg" class="services-list__img">
+				<h3 class="services-list__title">Андрологічні</h3>
+				<a href="#" class="services-list__btn" data-actions="2">Детальніше</a>
 			</li>
 		</ul>
 	</section>
-	<section class="about-us container">
-		<h2 class="block-title">О нас</h2>
-		<div class="about-us-block">
-			<img src="img/about-us-img.jpg" class="about-us-img">
-			<div class="about-us-content">
-				<p class="about-us__text">Описание! аааа ааааа  ааааа аааа ааа аааааарр аааа аааа аааа  ааааа  аааа ааааа ввввв вввввв вввввв  ввввв ввв ввв ввв вв, Описание! аааа ааааа  ааааа аааа ааа аааааарр аааа аааа аааа  ааааа  аааа ааааа ввввв вввввв вввввв  ввввв ввв ввв ввв вв</p>
-				<p class="about-us__text">Описание! аааа ааааа  ааааа аааа ааа аааааарр аааа аааа аааа  ааааа  аааа ааааа ввввв вввввв вввввв  ввввв ввв ввв ввв вв, Описание! аааа ааааа  ааааа аааа ааа аааааарр аааа аааа аааа  ааааа  аааа ааааа ввввв вввввв вввввв  ввввв ввв ввв ввв вв</p>
-				<p class="about-us__text">Описание! аааа ааааа  ааааа аааа ааа аааааарр аааа аааа аааа  ааааа  аааа ааааа ввввв вввввв вввввв  ввввв ввв ввв ввв вв, Описание! аааа ааааа  ааааа аааа ааа аааааарр аааа аааа аааа  ааааа  аааа ааааа ввввв вввввв вввввв  ввввв ввв ввв ввв вв</p>
-			</div>
-		</div>
-	</section>
+
+	<div class="overlay js-overlay">
+		
+	</div>
 	<section class="contacts container"></section>
+
+
+	<script src="js/main.js"></script>
+	<script src="js/services.js"></script>
 </body>
 </html>
