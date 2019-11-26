@@ -83,5 +83,22 @@ const services = [
 				<span class="modal-close__img"></span>
 			</button>
 		</div>`
-	}	
+	},
+	{
+		id: 3,
+		template: `
+		<div class="modal">
+			<h3 class="modal-title">Дошлюбне консультування</h3>	
+					<p class="modal-descriptions__text"><span>1.</span> Надання загальної інформації з контрацепції враховуючи потреби жінки.</p>
+					<p class="modal-descriptions__text"><span>2.</span> Вибір контрацептиву відповідно до стану здоров'я, періоду життя, репродуктивних планів, можливостей.</p>
+					<p class="modal-descriptions__text"><span>3.</span> Планування дітей в сім'ї та інтервали між пологами.</p>
+					<p class="modal-descriptions__text"><span>4.</span> Підбір сучасного методу контрацепції.</p>
+					<p class="modal-descriptions__text"><span>5.</span> Післяпологова та післяабортна контрацепція.</p>
+					<p class="modal-descriptions__text"><span>6.</span> Внутрішньоматкова контрацепція (введення/видалення спиралей з подальшим консультативним супроводом лікаря).</p>
+					<p class="modal-descriptions__text"><span>7.</span> Дошлюбне консультування - фундамент збереження здоров'я жінки та чоловіка.</p>
+			<button class="modal-close">
+				<span class="modal-close__img"></span>
+			</button>
+		</div>`
+	}
 ];
