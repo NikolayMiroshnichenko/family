@@ -100,5 +100,22 @@ const services = [
 				<span class="modal-close__img"></span>
 			</button>
 		</div>`
+	},
+	{
+		id: 4,
+		template: `
+		<div class="modal">
+			<h3 class="modal-title">Профілактика та лiкуванню шийки матки</h3>	
+					<p class="modal-descriptions__text"><span>1.</span> Профілактичний гінекологічний огляд жінок.</p>
+					<p class="modal-descriptions__text"><span>2.</span> Цитологічний скринінг на рак шийки матки(РШМ).</p>
+					<p class="modal-descriptions__text"><span>3.</span> Проведення простої та розширеної кольпоскопії.</p>
+					<p class="modal-descriptions__text"><span>4.</span> Контроль та спостереження за жінками при виявленні передракових захворювань.</p>
+					<p class="modal-descriptions__text"><span>5.</span> Своєчасна діагностика та лікування передракових захворювань шийки матки,взаємодія з онкогінекологом.</p>
+					<p class="modal-descriptions__text"><span>6.</span> Надання інформації щодо профілактики захворювань шийки матки,впливу факторів ризику розвитку раку шийки матки пов'язаних зі способом життя.</p>
+					<p class="modal-descriptions__text"><span>7.</span> Надання інформації щодо вакцинації проти вірусу папіломи людини(ВПЛ).</p>
+			<button class="modal-close">
+				<span class="modal-close__img"></span>
+			</button>
+		</div>`
 	}
 ];
