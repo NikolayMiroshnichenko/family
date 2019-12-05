@@ -117,5 +117,64 @@ const services = [
 				<span class="modal-close__img"></span>
 			</button>
 		</div>`
-	}
+	},
+	{
+		id: 5,
+		template: `
+		<div class="modal">
+			<h3 class="modal-title">Мамологічні послуги</h3>	
+					<p class="modal-descriptions__text"><span>1.</span> Проведення прийому хворих, які звертаються в ЦПС з приводу скарг щодо грудних залоз.</p>
+					<p class="modal-descriptions__text"><span>2.</span>	Здійснення скринінгу патології грудних залоз.</p>
+					<p class="modal-descriptions__text"><span>3.</span>	Надання консультативної допомоги хворим з патологією грудної залози.</p>
+					<p class="modal-descriptions__text"><span>4.</span> Здійснення обліку всіх хворих на доброякісні та злоякісні новоутворення, які проживають на території діяльності кабінету, і контроль за своєчасним направленням повідомлень про кожний випадок злоякісного новоутворення до онкологічних диспансерів.</p>
+					<p class="modal-descriptions__text"><span>5.</span> Проведення лікування хворих з передраковими та іншими захворюваннями грудної залози.</p>
+					<p class="modal-descriptions__text"><span>6.</span> Обстеження грудних залоз у жінок, які приймають гормональні препарати(КОК, ЗГТ, гестагени, ВМС «Мірена») та визначення показань та протипоказань для їх використання.</p>
+					<p class="modal-descriptions__text"><span>7.</span> Визначення жінок групи високого ризику захворюваності на рак молочної залози і надання кваліфікованої допомоги щодо подальшого способу життя та спостереженню.</p>
+					<p class="modal-descriptions__text"><span>8.</span> Навчання жінок методам самообстеження молочних залоз та проведення активної санітарно-просвітницької діяльності щодо здорового способу життя,безпечного материнства,планування сім ї,тощо</p>
+					<p class="modal-descriptions__text"><span>9.</span> Консультування з лактації та вирішення проблем,які можуть виникати на фоні грудного вигодовування(тріщини,лактосази,мастити,гіпогалактії,правильне завершення лактації)</p>
+
+			<button class="modal-close">
+				<span class="modal-close__img"></span>
+			</button>
+		</div>`
+	},
+	{
+		id: 7,
+		template: `
+		<div class="modal">
+			<h3 class="modal-title">УЗД</h3>	
+					<p class="modal-descriptions__text"><span>1.</span> Молочних залоз </p>
+					<p class="modal-descriptions__text"><span>2.</span> Органів малого тазу </p>
+					<p class="modal-descriptions__text"><span>3.</span> Передміхурової залози та нирок</p>
+					<p class="modal-descriptions__text"><span>4.</span> Щитоподібної залози </p>
+					<p class="modal-descriptions__text"><span>5.</span> Черевної порожнини</p>
+					<p class="modal-descriptions__text"><span>6.</span> Визначення терміну вагітності </p>
+					<p class="modal-descriptions__text"><span>7.</span> Фолікулометрія </p>
+					<p class="modal-descriptions__text"><span>8.</span> Пункційна біопсія кіст молочних залоз</p>
+			<button class="modal-close">
+				<span class="modal-close__img"></span>
+			</button>
+		</div>`
+	},
+	{
+		id: 8,
+		template: `
+		<div class="modal">
+			<h3 class="modal-title">Ведення від пубертату до менопаузи:</h3>	
+					<p class="modal-descriptions__text"><span>1.</span> Консультування підлітків з різних питань(в тому числі, які мають статеві стосунки)</p>
+					<p class="modal-descriptions__text"><span>2.</span> Діагностика та лікування порушень менструального циклу у підлітковому періоді</p>
+					<p class="modal-descriptions__text"><span>3.</span> Допомога підліткам з питань профілактики, діагностики та лікування інфекцій, що передаються статевим шляхом </p>
+					<p class="modal-descriptions__text"><span>4.</span> Контрацепція підлітків, в тому числі невідкладна контрацепція</p>
+					<p class="modal-descriptions__text"><span>5.</span> Вибір сучасних методів контрацепції пацієнтам з міомою матки, ендометріозом та в пременопаузальному періоді</p>
+					<p class="modal-descriptions__text"><span>6.</span> Ведення пацієнток з клімактеричним синдромом</p>
+					<p class="modal-descriptions__text"><span>7.</span> Діагностика і диференціальна діагностика клімактерію</p>
+					<p class="modal-descriptions__text"><span>8.</span> Призначення гормональної та негормональної менопаузальної терапії</p>
+					<p class="modal-descriptions__text"><span>9.</span> Нові методи лікування та профілактики атрофічного вагініту у період менопаузи, які виникають внаслідок дефіциту гормонів</p>
+					<p class="modal-descriptions__text"><span>10.</span> Діагностика ті лікування безпліддя</p>
+
+			<button class="modal-close">
+				<span class="modal-close__img"></span>
+			</button>
+		</div>`
+	},
 ];
