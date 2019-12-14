@@ -200,7 +200,7 @@ body {
 	0 10px 10px rgba(0,0,0,0.22);
 }
 .services {
-	margin-bottom: 80px;
+	margin-bottom: 120px;
 }
 .block-title {
 	position: relative;
@@ -341,20 +341,37 @@ body {
 .doctors-list__item {
 	width: 190px;
 	padding: 14px;
+	transition: all 0.3s;
+}
+.doctors-list__item:hover {
+	transform: scale(1.06);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .2),
+        -23px 0 20px -23px rgba(0, 0, 0, .5),
+        23px 0 20px -23px rgba(0, 0, 0, .5),
+        inset 0 0 40px rgba(0, 0, 0, .1);
+}
+.doctors-list__item:hover .doctors-list__img {
+	border-radius: 12px;
+}
+.doctors-list__item:last-child {
+	border-right: none;
 }
 .doctors-list__img {
 	width: 100%;
 	display: block;
 	border-radius: 50%;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transition: all 0.4s;
 }
 .doctors-list__title {
 	font-size: 14px;
 	font-weight: 700;
+	text-align: center;
 }
 .doctors-list__text {
 	display: flex;
 	align-items: center;
+	text-align: center;
 	font-size: 12px;
 	color: #000;
 	height: 60px;
@@ -366,12 +383,59 @@ body {
 	display: block;
 	width: 120px;
 	font-size: 12px;
+	margin: 0 auto;
 	text-decoration: none;
 	color: #ffffffff;
 	padding: 6px 0;
 	background-color: #333;
 	text-align: center;
 
+}
+.contacts {
+	margin-bottom: 80px;
+}
+.contact-block {
+	display: flex;
+	justify-content: center;
+}
+.contact-img {
+	width: 50%;
+	display: block;
+	margin-right: 20px;
+}
+.contact-content {
+	width: 40%;
+}
+.contact-content__text {
+	font-size: 22px;
+	font-weight: 500;
+	color: #333;
+	margin: 0;
+}
+.contact-content__text span {
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 700;
+	margin-right: 6px;
+}
+.contact-number {
+	position: relative;
+	padding-left: 40px;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.contact-number:before {
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 30px;
+	transform: translateY(-50%);
+	width: 6px;
+	height: 6px;
+	background-color: #9121a8;
+	border-radius: 50%;
 }
 /*//MODAL*/
 .overlay {
