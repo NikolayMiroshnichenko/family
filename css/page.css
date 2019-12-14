@@ -1,0 +1,47 @@
+.page-main-wrapper {
+    width: 100%;
+    height: 100vh;
+}
+.header {
+    border-bottom: 1px solid #9132a8;
+    margin-bottom: 80px;
+}
+.page-main {
+    display: flex;
+    justify-content: center;
+}
+.page-img {
+    width: 35%;
+}
+.page-img__img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.page-content {
+    width: 55%;
+    padding: 0 20px;
+}
+.page-content__title {
+    margin: 0;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 900;
+}
+.img-list {
+    list-style-type: none;
+    padding: 0;
+}
+.img-list__item h2 {
+    font-size: 24px;
+    font-weight: 900;
+}
+.img-list__item p {
+    font-size: 24px;
+}
+.page-content__text {
+    font-size: 18px;
+    font-weight: 400;
+}
+.page-content__text span {
+    font-weight: 700;
+}

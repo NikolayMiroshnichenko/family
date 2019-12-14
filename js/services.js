@@ -139,6 +139,36 @@ const services = [
 		</div>`
 	},
 	{
+		id: 6,
+		template: `
+		<div class="modal">
+			<h3 class="modal-title">Ендокринна гінекологія</h3>	
+			<div class="modal-content">
+				<div class="modal-descriptions">
+					<p class="modal-descriptions__text"><span>1.</span> Вибір контрацептиву відповідно до стану здоров'я, періоду життя, репродуктивних планів, можливостей</p>
+					<p class="modal-descriptions__text"><span>2.</span> Внутрішньоматкова контрацепція (введення/видалення спіралей ВМС ”Мірена” з подальшим консультативним супроводом лікаря)</p>
+					<p class="modal-descriptions__text"><span>3.</span> Діагностика ті лікування безпліддя</p>
+					<p class="modal-descriptions__text"><span>4.</span>  Звичайне невиношування вагітності (завмерлі вагітності, мимовільні викидні чи аборти в різних термінах вагітності)</p>
+					<p class="modal-descriptions__text"><span>5.</span> Спадкова та набута тромбофілія</p>
+					<p class="modal-descriptions__text"><span>6.</span> Антифосфоліпідний синдром</p>
+					<p class="modal-descriptions__text"><span>7.</span> Невдалі спроби ЕКЗ</p>
+				</div>
+				<div class="modal-info">
+					<h3 class="modal-info__title">Профілактика та лікування:</h3>
+					<p class="modal-descriptions__text">- порушень менструального циклу,</p>	
+					<p class="modal-descriptions__text">- ендометріозу</p>
+					<p class="modal-descriptions__text">- гіперпластичних захворювань ендометрію</p>
+					<p class="modal-descriptions__text">- кіст яєчників</p>
+					<p class="modal-descriptions__text">- міом матки</p>
+					<p class="modal-descriptions__text">- гіперандрогенії(акне, гірсутизм)</p>
+				</div>
+			</div>
+			<button class="modal-close">
+				<span class="modal-close__img"></span>
+			</button>
+		</div>`
+	},
+	{
 		id: 7,
 		template: `
 		<div class="modal">
