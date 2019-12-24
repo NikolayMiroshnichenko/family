@@ -128,7 +128,7 @@ body {
 	-webkit-box-shadow: -8px 6px 22px -4px rgba(145,50,168,0.84);
 	-moz-box-shadow: -8px 6px 22px -4px rgba(145,50,168,0.84);
 	box-shadow: -8px 6px 22px -4px rgba(145,50,168,0.84);
-	background-color: rgba(255, 255, 255, 0.96);
+	background-color: rgba(255, 255, 255, 0.99);
 	background-image: url(../img/background.png);
 	z-index: 999;
 }
@@ -288,10 +288,18 @@ body {
 
 
 /*ABOUT-US*/
+.about-us-wrapper {
+	padding: 80px 0;
+	background-image: url(../img/about-us/wrapper.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin-bottom: 80px;
+}
 .about-us {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 80px;
 }
 .about-us-content,
 .about-us__img {
@@ -306,6 +314,7 @@ body {
 	display: inline-block;
 	position: relative;
 	font-size: 24px;
+	color: #ffffff;
 	font-weight: 700;
 	margin: 0;
 	margin-bottom: 40px;
@@ -321,11 +330,24 @@ body {
 }
 .about-us-content-text {
 	font-size: 16px;
-	color: #696969;
+	color: #ffffffff;
 	margin: 0;
 	line-height: 1.4;
 	font-weight: 300;
 	margin-bottom: 14px;
+}
+.about-us__btn {
+	width: 200px;
+	display: block;
+	font-size: 16px;
+	padding: 12px 0;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #9121a8;
+	text-align: center;
+	margin: 0 auto;
+	font-style: italic;
+	border-radius: 8px;
 }
 
 /*DOCTORS*/
@@ -387,9 +409,58 @@ body {
 	text-decoration: none;
 	color: #ffffffff;
 	padding: 6px 0;
-	background-color: #333;
+	background-color: #9132a8;
 	text-align: center;
+	border-radius: 20px;
 
+}
+.article {
+	margin-bottom: 80px;
+}
+.article-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	list-style-type: none;
+}
+.article-item {
+	display: flex;
+	width: 968px;
+	margin-bottom: 20px;
+}
+.article-item__block {
+	position: relative;
+}
+.article-img {
+	display: block;
+	width: 320px;
+	height: 320px;
+	margin-right: 20px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+	0 10px 10px rgba(0,0,0,0.22);
+}
+.article-item__title {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0;
+}
+.article-item__text {
+	font-size: 16px;
+	color: #333333;
+	font-weight: 400;
+}
+.article-item__btn {
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 120px;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 8px 0;
+	text-align: center;
+	background-color: #9132a8;
+	text-decoration: none;
 }
 .contacts {
 	margin-bottom: 80px;
@@ -399,45 +470,13 @@ body {
 	justify-content: center;
 }
 .contact-img {
-	width: 50%;
+	width: 60%;
 	display: block;
 	margin-right: 20px;
 	height: 500px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-.contact-content {
-	width: 40%;
-}
-.contact-content__text {
-	font-size: 22px;
-	font-weight: 500;
-	color: #333;
-	margin: 0;
-}
-.contact-content__text span {
-	font-size: 16px;
-	font-style: italic;
-	font-weight: 700;
-	margin-right: 6px;
-}
-.contact-number {
-	position: relative;
-	padding-left: 40px;
-	font-style: italic;
-	font-weight: 400;
-	font-size: 16px;
-	margin-bottom: 20px;
-}
-.contact-number:before {
-	position: absolute;
-	content: "";
-	top: 50%;
-	left: 30px;
-	transform: translateY(-50%);
-	width: 6px;
-	height: 6px;
-	background-color: #9121a8;
-	border-radius: 50%;
-}
+
 /*//MODAL*/
 .overlay {
 	display: none;

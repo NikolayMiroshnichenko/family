@@ -45,13 +45,13 @@ const services = [
 					<p class="modal-descriptions__text">Робота з психосоматичними проявами</p>
 					<p class="modal-descriptions__text">Психологічна допомога людям що пережили втрату близької людини</p>
 					<p class="modal-descriptions__text">Проведення сертифікованих тренінгів та семінарів</p>
-					<p class="modal-descriptions__text">Психологічна допомога вагітним, у тому числі підготовка до пологів</p>
 				</div>
 				<div class="modal-info">
-					<h3 class="modal-info__title">Експрес-курс (термін вагітності 38-40 тижнів)</h3>	
-					<p class="modal-descriptions__text">Поглиблений курс з використанням арт-терапії, метафоричних карт. </p>
-					<h3 class="modal-info__title">Базовий курс</h3>	
-					<p class="modal-descriptions__text">Підготовка до партнерських пологів.</p>
+					<h3 class="modal-descriptions__text">Психологічна допомога вагітним, у тому числі підготовка до пологів</h3>
+					<p class="modal-descriptions__text"><i>1. </i> Експрес-курс (термін вагітності 38-40 тижнів)</p>	
+					<p class="modal-descriptions__text"><i>2. </i> Поглиблений курс з використанням арт-терапії, метафоричних карт. </p>
+					<p class="modal-descriptions__text"><i>3. </i> Базовий курс</p>	
+					<p class="modal-descriptions__text"><i>4 .</i> Підготовка до партнерських пологів.</p>
 				</div>
 			</div>
 			<button class="modal-close">
