@@ -71,3 +71,10 @@
 .pageAboutUs {
     margin-bottom: 80px;
 }
+.pageAboutUsImg {
+	width: 60%;
+	display: block;
+	height: 500px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin: 0 auto;
+}
