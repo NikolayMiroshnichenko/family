@@ -105,7 +105,7 @@ const services = [
 		id: 4,
 		template: `
 		<div class="modal">
-			<h3 class="modal-title">Профілактика та лiкуванню шийки матки</h3>	
+			<h3 class="modal-title">Профілактика та лiкування шийки матки</h3>	
 					<p class="modal-descriptions__text"><span>1.</span> Профілактичний гінекологічний огляд жінок.</p>
 					<p class="modal-descriptions__text"><span>2.</span> Цитологічний скринінг на рак шийки матки(РШМ).</p>
 					<p class="modal-descriptions__text"><span>3.</span> Проведення простої та розширеної кольпоскопії.</p>

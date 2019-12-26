@@ -131,5 +131,30 @@
         width: 100%;
         margin-left: 0;
     }
+    .call {
+        display: block;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        width: 70px;
+        height: 70px;
+        background-color: #9132a8;
+        border-radius: 50%;
+        border: 2px solid #ffffff;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        z-index: 9998;
+    }
+    .call-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 30px;
+        height: 30px;
+        background-image: url(../img/call-back.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
    
 }
