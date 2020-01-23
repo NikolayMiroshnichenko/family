@@ -99,6 +99,10 @@
     height: auto;
     margin-bottom: 20px;
 }
+.news-item__video {
+    width: 100%;
+    height: 80%;
+}
 .news-date {
     position: absolute;
     top: -48px;
@@ -158,5 +162,9 @@
     .pageAboutUsImg {
         width: 90%;
         height: auto;
+    }
+    .news-item__video {
+        width: 100%;
+        height: 300px;
     }
 }
