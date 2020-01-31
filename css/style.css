@@ -37,6 +37,22 @@ body {
 	display: flex;
 	align-items: center;
 }
+.events-btn {
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #000;
+	border: 1px solid #9132a8;
+	border-radius: 4px;
+	margin-right: 40px;
+	box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+	transition: all 0.4s;
+}
+.events-btn:hover {
+	background-color: #9121a8;
+	color: #ffffff;
+}
 .header-mobill {
 	position: relative;
 	padding-left: 60px;
